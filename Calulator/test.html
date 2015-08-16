@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/roboto.min.css" rel="stylesheet">
+        <link href="css/material.min.css" rel="stylesheet">
+        <link href="css/ripples.min.css" rel="stylesheet">
+        <link href="css/material-fullpalette.min.css" rel="stylesheet">
+        <link href="css/custome.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Your site -->
+           <div class="row"> 
+            <h1 class="header">Material design Calculator</h1>
+            <small>a quest to design advance  <cite title="Source Title">, feature rich calculator</cite></small>
+                        <div class="panel panel-default pull-right">
+                <div class="panel-body" id="toggle-button" >
+                    <div class="togglebutton">
+                        <label>
+                            History
+                            <input type="checkbox" checked=""><span class="toggle"></span>
+                        </label>
+                        <br>
+                        <label>Total Calculation<span class="t-calc">1024</span></label>
+                    </div>
+                </div>
+            </div>
+
+           </div>
+            <div class="well page active col-md-3 cal-wrap" id="toggle-button" style="display: block;">
+                <input type="text" class="form-control" placeholder="Amount">
+                
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">C</a>
+<a href="javascript:void(0)" class="btn btn-default btn-raised" style="width: 45px;">+/-</a>
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">%</a>
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">/</a>
+
+                <br>
+
+
+
+
+
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">7</a><a href="javascript:void(0)" class="btn btn-default btn-raised">8</a>
+                
+
+<a href="javascript:void(0)" class="btn btn-default btn-raised">9</a>
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">x</a>
+
+<br>
+
+
+
+<a href="javascript:void(0)" class="btn btn-default btn-raised">4</a><a href="javascript:void(0)" class="btn btn-default btn-raised">5</a>
+<a href="javascript:void(0)" class="btn btn-default btn-raised">6</a>
+<a href="javascript:void(0)" class="btn btn-default btn-raised">_</a>
+
+<br>
+
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">1</a>
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">2</a>
+                <a href="javascript:void(0)" class="btn btn-default btn-raised">3</a>
+<a href="javascript:void(0)" class="btn btn-default btn-raised">+</a>
+                <br>
+<a href="javascript:void(0)" class="btn btn-default btn-raised" style="width:109px;">0</a>
+<a href="javascript:void(0)" class="btn btn-default btn-raised">.</a>
+<a href="javascript:void(0)" class="btn btn-default btn-raised">=</a>
+
+
+                </div> <!-- End container -->
+
+            </div>
+            <!-- Your site ends -->
+            <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/ripples.min.js"></script>
+            <script src="js/material.min.js"></script>
+            <script>
+                                                            $(document).ready(function() {
+                                                                // This command is used to initialize some elements and make them work properly
+                                                                $.material.init();
+                                                            });
+            </script>
+        </body>
+    </html>
